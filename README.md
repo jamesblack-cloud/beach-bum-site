@@ -2,6 +2,8 @@
 # Beach Bum Cannabis — Deployable Static Site
 
 This is a deployable static website package for Beach Bum Cannabis.
+Live at https://beachbumcannabis.ca (GitHub Pages, main branch, root).
+
 
 ## Highlights
 - Stay On Island Time hero and product-first UX
