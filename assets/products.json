@@ -301,8 +301,8 @@
   {
     "slug": "suns-out-blunts-out",
     "name": "Suns Out Blunts Out",
-    "type": "Sativa",
-    "pack": "1 \u00d7 1 g",
+    "type": "Indica",
+    "pack": "3 \u00d7 1 g",
     "image": "",
     "status": "live",
     "provinces_live": [
@@ -312,14 +312,14 @@
       "Saskatchewan",
       "Manitoba"
     ],
-    "series": "wood-tip",
-    "description": "The one and only.",
+    "series": "hemp-paper",
+    "description": "Simple as that.",
     "details": [
-      "Wood-tipped cone",
-      "Elevated experience",
-      "Island crafted"
+      "Hemp paper",
+      "Smooth, slower burn",
+      "Signature 3-pack"
     ],
-    "cnb": ""
+    "cnb": "CNB-13814482"
   },
   {
     "slug": "big-drift-energy",
@@ -346,8 +346,8 @@
   {
     "slug": "grand-puba",
     "name": "Grand Puba",
-    "type": "Indica",
-    "pack": "1 \u00d7 2 g",
+    "type": "Sativa",
+    "pack": "1 \u00d7 1 g",
     "image": "",
     "status": "coming-soon",
     "provinces_live": [],
@@ -357,11 +357,11 @@
       "Manitoba"
     ],
     "series": "hemp-paper",
-    "description": "Simple as that.",
+    "description": "The one and only.",
     "details": [
       "Hemp paper",
       "Coming soon",
-      "Big session energy"
+      "Single 1 g format"
     ],
     "cnb": ""
   },
