@@ -1,41 +1,28 @@
 
-# Beach Bum Cannabis — Deployable Static Site
+# Beach Bum Cannabis — Static Site v5
 
-This is a deployable static website package for Beach Bum Cannabis.
-Live at https://beachbumcannabis.ca (GitHub Pages, main branch, root).
+Deployable static website built with semantic HTML, responsive CSS and vanilla JavaScript.
 
-
-## Highlights
-- Stay On Island Time hero and product-first UX
-- No pricing, no cart, no checkout
+## Included
+- Real HTML homepage and product catalogue
+- Province-based one-time age gate
 - Alberta available now; Saskatchewan and Manitoba coming soon
-- 12 live pre-roll SKUs plus hemp/blunt feature formats
-- Age gate, mobile menu, filters and dynamic product page
-- Supports an optional hero video
-
-## Hero video
-To enable the approved current-site hero video, drop either or both of these files into `assets/video/`:
-- `hero-video.mp4`
-- `hero-video.webm`
-
-If no video is present, the site automatically falls back to the static hero image.
-
-## GitHub Pages deployment
-1. Create a new GitHub repository.
-2. Upload all files in this folder to the repository root.
-3. Enable GitHub Pages from the main branch / root folder.
-4. Point your custom domain to the Pages site if desired.
+- Corrected hemp-paper and wood-tipped product data
+- No pricing, cart, checkout or direct cannabis sales
+- Quality-85 progressive JPEG photography; transparent logos remain PNG
+- Product filtering and dynamic product detail page
+- Find-a-Retailer contact form
 
 ## Local preview
-Run a simple server from this folder, for example:
-
 ```bash
 python3 -m http.server 8000
 ```
+Open `http://localhost:8000`.
 
-Then open `http://localhost:8000`.
+## Before publishing
+- Replace placeholder Privacy and Terms copy with approved legal language.
+- Replace `mailto:` form actions with the chosen form endpoint or CRM integration.
+- Confirm final retailer-contact routing.
 
-## Notes before launch
-- Replace placeholder legal copy in Privacy and Terms pages.
-- Confirm live retailer destinations and contact addresses.
-- Add the approved woman-on-the-beach hero video to `assets/video/`.
+## Custom domain
+The root `CNAME` file is configured for `beachbumcannabis.ca`. Keep it in the repository root with `.nojekyll`.
