@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://beachbumcannabis.ca/sitemap.xml
