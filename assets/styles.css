@@ -176,3 +176,44 @@ footer .mini-badge{background:rgba(255,247,235,.16);color:#fff7eb}
 .format-item .status-chip{top:16px;left:22px;right:auto;box-shadow:0 2px 8px rgba(17,65,73,.10)}
 .format-item.available .status-chip{background:#dff0ef;color:#1c6470}
 .format-item.coming .status-chip{background:rgba(43,42,38,.82);color:#fff7eb}
+
+/* v7.2: Our Story — true image ratio, tighter section */
+.story-image img{display:block;height:auto;width:100%;aspect-ratio:1800/1170;object-fit:cover;max-height:430px}
+.story-split{padding-bottom:56px;align-items:center}
+@media(max-width:860px){.story-image img{max-height:300px}.story-split{padding-bottom:40px}}
+
+/* v7.2: hero video loop — still image is the base layer, video fades in when ready */
+.hero-media .hero-video{z-index:1;opacity:0;transition:opacity .9s ease;pointer-events:none}
+.hero-media .hero-video.ready{opacity:1}
+.hero-media.video-live .wave-motion{opacity:0}
+@media (prefers-reduced-motion:reduce){.hero-media .hero-video{display:none!important}}
+
+
+/* v7.3: seamless page ground - one flat cream everywhere, waves cut from the same colour */
+:root{--bone:#f5ede0}
+body{background:#f5ede0}
+
+/* v7.3: province band rebuilt to the GPT proof - straight full-bleed band, wave along the top edge only */
+.availability-strip{
+  position:relative;display:block;overflow:hidden;
+  width:100%;margin:0 0 8px;padding:0;border-radius:0;
+  transform:none!important;transform-origin:center;
+  background:linear-gradient(rgba(11,86,96,.40),rgba(11,86,96,.46)),
+             url('images/province-water.jpg') center/cover,
+             linear-gradient(120deg,#2e7f8c,#3d97a2 55%,#2b6f7d);
+  -webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%201440%20170%27%20preserveAspectRatio%3D%27none%27%3E%3Cpath%20d%3D%27M0%2C30%20C220%2C4%20400%2C46%20700%2C31%20C1000%2C16%201180%2C50%201440%2C20%20L1440%2C170%20L0%2C170%20Z%27%20fill%3D%27%23fff%27%2F%3E%3C%2Fsvg%3E");mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%201440%20170%27%20preserveAspectRatio%3D%27none%27%3E%3Cpath%20d%3D%27M0%2C30%20C220%2C4%20400%2C46%20700%2C31%20C1000%2C16%201180%2C50%201440%2C20%20L1440%2C170%20L0%2C170%20Z%27%20fill%3D%27%23fff%27%2F%3E%3C%2Fsvg%3E");-webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+.availability-strip .inner{
+  transform:none!important;
+  display:grid;grid-template-columns:repeat(3,1fr);
+  max-width:var(--max);margin:0 auto;
+  padding:64px clamp(24px,4vw,60px) 40px;color:#fff9ef;gap:0}
+.availability-strip .inner > div{display:flex;align-items:center;gap:18px;padding:2px clamp(10px,2.2vw,30px)}
+.availability-strip .inner > div + div{border-left:1px solid rgba(255,249,239,.32)}
+.availability-strip h3{font-size:clamp(30px,2.6vw,40px);margin:2px 0;color:#f3c46a}
+.availability-strip small{font-size:11px;letter-spacing:.14em}
+.availability-strip p{font-size:13.5px;opacity:.95;max-width:26ch}
+.availability-strip .aicon svg{width:34px;height:34px}
+@media(max-width:860px){
+  .availability-strip .inner{grid-template-columns:1fr;padding:52px 20px 30px;gap:6px}
+  .availability-strip .inner > div + div{border-left:0;border-top:1px solid rgba(255,249,239,.26)}
+}
