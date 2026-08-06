@@ -170,3 +170,9 @@ footer .mini-badge{background:rgba(255,247,235,.16);color:#fff7eb}
   .rule-head h2{white-space:normal}
   .rule-head .rule-line::before,.rule-head .rule-line::after{width:34px}
 }
+
+/* v7.1: keep status chips inside their format cards */
+.format-item{position:relative;padding-top:52px}
+.format-item .status-chip{top:16px;left:22px;right:auto;box-shadow:0 2px 8px rgba(17,65,73,.10)}
+.format-item.available .status-chip{background:#dff0ef;color:#1c6470}
+.format-item.coming .status-chip{background:rgba(43,42,38,.82);color:#fff7eb}
