@@ -196,3 +196,11 @@ body{background:#F5EDE0;color:var(--ink)}
   .showcase-grid.six-up .product-card .card-image img,.product-grid .product-card .card-image img{transition:none}
   .showcase-grid.six-up .product-card:hover,.product-grid .product-card:hover{transform:none}
 }
+
+
+/* v11.4: eco figure is now 93.4% — size the numeral to fit the disc */
+.sticker-badge strong{font-size:44px;letter-spacing:-.01em}
+.sticker-badge span{min-width:96px}
+.sticker-badge.small strong{font-size:34px}
+.sticker-badge.side strong{font-size:38px}
+@media(max-width:860px){.sticker-badge strong{font-size:34px}.sticker-badge span{min-width:76px}}

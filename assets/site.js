@@ -53,7 +53,7 @@ function renderProductPage(){
   set('#product-name',p.name);set('#product-pack',p.pack);set('#product-desc',p.description);
   const t=document.querySelector('#product-type');if(t){t.textContent=p.type;t.className=`type ${p.type.toLowerCase()}`;}
   set('#product-status',p.status==='live'?`Available now in ${p.provinces_live.join(', ')} · Coming soon to ${p.provinces_coming.join(' and ')}`:`Coming soon · Planned for ${p.provinces_coming.join(', ')}`);
-  const fc=document.querySelector('#format-callout span');if(fc)fc.textContent=p.series==='hemp-paper'?'Hemp paper':p.series==='wood-tip'?'2 g wood-tipped blunt':'Premium pre-rolls';
+  const fc=document.querySelector('#format-callout span');if(fc)fc.textContent=p.series==='hemp-paper'?'Hemp blunt':p.series==='wood-tip'?'Wood-tipped blunt':'Pre-roll in a hemp cone';
   const gallery=document.querySelector('.gallery-shell');if(!p.image&&gallery)gallery.innerHTML=`<div class="coming-card-art" style="aspect-ratio:1/1;border-radius:28px"><span>${p.name}</span></div>`;
   const related=document.querySelector('#related-products');if(related)related.innerHTML=products.filter(x=>x.slug!==p.slug).slice(0,6).map(x=>{const img=x.image?`<img src="${x.image}" alt="${x.name}" loading="lazy">`:`<div class="coming-card-art"><span>Coming Soon</span></div>`;return `<article class="product-card"><a href="product.html?id=${x.slug}"><div class="card-image">${img}<span class="status-chip ${x.status}">${x.status==='live'?'Available now':'Coming soon'}</span></div><div class="card-copy"><span class="type ${x.type.toLowerCase()}">${x.type}</span><h3>${x.name}</h3><p>${x.pack}</p></div></a></article>`;}).join('');
 }

@@ -3,7 +3,7 @@
     "slug": "sun-kiss",
     "name": "Sun Kiss",
     "type": "Sativa",
-    "pack": "5 \u00d7 1 g",
+    "pack": "5 × 1 g",
     "image": "assets/images/sun-kiss.jpg",
     "status": "live",
     "provinces_live": [
@@ -14,11 +14,11 @@
       "Manitoba"
     ],
     "series": "pre-rolls",
-    "description": "Kiss the sun \u2014 or let it kiss you.",
+    "description": "Kiss the sun — or let it kiss you.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Smooth finish"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814467"
   },
@@ -26,7 +26,7 @@
     "slug": "coral-reefer",
     "name": "Coral Reefer",
     "type": "Indica",
-    "pack": "5 \u00d7 1 g",
+    "pack": "5 × 1 g",
     "image": "assets/images/coral-reefer.jpg",
     "status": "live",
     "provinces_live": [
@@ -40,8 +40,8 @@
     "description": "Dive deep to explore the reef.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Calm island vibe"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814468"
   },
@@ -49,7 +49,7 @@
     "slug": "swordfish",
     "name": "Swordfish",
     "type": "Hybrid",
-    "pack": "5 \u00d7 1 g",
+    "pack": "5 × 1 g",
     "image": "assets/images/swordfish.jpg",
     "status": "live",
     "provinces_live": [
@@ -63,8 +63,8 @@
     "description": "Lethal in deep water.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Balanced feel"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814469"
   },
@@ -72,7 +72,7 @@
     "slug": "island-time",
     "name": "Island Time",
     "type": "Sativa",
-    "pack": "20 \u00d7 1 g",
+    "pack": "20 × 1 g",
     "image": "assets/images/island-time.jpg",
     "status": "live",
     "provinces_live": [
@@ -86,8 +86,8 @@
     "description": "No clocks, no worries.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "All-day beach energy"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814470"
   },
@@ -95,7 +95,7 @@
     "slug": "paradise-puffs",
     "name": "Paradise Puffs",
     "type": "Indica",
-    "pack": "20 \u00d7 1 g",
+    "pack": "20 × 1 g",
     "image": "assets/images/paradise-puffs.jpg",
     "status": "live",
     "provinces_live": [
@@ -109,8 +109,8 @@
     "description": "Feet in the sand, lean back.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Laid-back finish"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814471"
   },
@@ -118,7 +118,7 @@
     "slug": "wave-riders",
     "name": "Wave Riders",
     "type": "Hybrid",
-    "pack": "20 \u00d7 1 g",
+    "pack": "20 × 1 g",
     "image": "assets/images/wave-riders.jpg",
     "status": "live",
     "provinces_live": [
@@ -132,8 +132,8 @@
     "description": "Steady on the board now.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Easy coastal balance"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814472"
   },
@@ -141,7 +141,7 @@
     "slug": "tiki-tokes",
     "name": "Tiki Tokes",
     "type": "Sativa",
-    "pack": "30 \u00d7 0.5 g",
+    "pack": "30 × 0.5 g",
     "image": "assets/images/tiki-tokes.jpg",
     "status": "live",
     "provinces_live": [
@@ -155,8 +155,8 @@
     "description": "Pay respects to the Tiki Man.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Party-of-none required"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814473"
   },
@@ -164,7 +164,7 @@
     "slug": "hammock-highs",
     "name": "Hammock Highs",
     "type": "Indica",
-    "pack": "30 \u00d7 0.5 g",
+    "pack": "30 × 0.5 g",
     "image": "assets/images/hammock-highs.jpg",
     "status": "live",
     "provinces_live": [
@@ -175,11 +175,11 @@
       "Manitoba"
     ],
     "series": "pre-rolls",
-    "description": "Sink in \u2014 mind the ash.",
+    "description": "Sink in — mind the ash.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Deep exhale"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814474"
   },
@@ -187,7 +187,7 @@
     "slug": "spf-30",
     "name": "SPF 30",
     "type": "Hybrid",
-    "pack": "30 \u00d7 0.5 g",
+    "pack": "30 × 0.5 g",
     "image": "assets/images/spf-30.jpg",
     "status": "live",
     "provinces_live": [
@@ -201,8 +201,8 @@
     "description": "Heavy-duty, all-day coverage.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Crew-friendly format"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814475"
   },
@@ -210,7 +210,7 @@
     "slug": "smokirita",
     "name": "Smokirita",
     "type": "Sativa",
-    "pack": "15 \u00d7 0.5 g",
+    "pack": "15 × 0.5 g",
     "image": "assets/images/smokirita.jpg",
     "status": "live",
     "provinces_live": [
@@ -224,8 +224,8 @@
     "description": "Join us at Smokitaville.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Lively island lift"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814476"
   },
@@ -233,7 +233,7 @@
     "slug": "hula-hoots",
     "name": "Hula Hoots",
     "type": "Indica",
-    "pack": "15 \u00d7 0.5 g",
+    "pack": "15 × 0.5 g",
     "image": "assets/images/hula-hoots.jpg",
     "status": "live",
     "provinces_live": [
@@ -247,8 +247,8 @@
     "description": "Rock your body.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Easygoing finish"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814477"
   },
@@ -256,7 +256,7 @@
     "slug": "spf-15",
     "name": "SPF 15",
     "type": "Hybrid",
-    "pack": "15 \u00d7 0.5 g",
+    "pack": "15 × 0.5 g",
     "image": "assets/images/spf-15.jpg",
     "status": "live",
     "provinces_live": [
@@ -270,8 +270,8 @@
     "description": "A sexy tan, not a sexy burn.",
     "details": [
       "Whole flower",
-      "Hand rolled",
-      "Just-right coverage"
+      "Rolled in a hemp cone",
+      "Hand rolled"
     ],
     "cnb": "CNB-13814478"
   },
@@ -279,7 +279,7 @@
     "slug": "triton",
     "name": "Triton",
     "type": "Sativa",
-    "pack": "3 \u00d7 1 g",
+    "pack": "3 × 1 g",
     "image": "",
     "status": "live",
     "provinces_live": [
@@ -290,11 +290,11 @@
       "Manitoba"
     ],
     "series": "hemp-paper",
-    "description": "The son of Poseidon won\u2019t let you down.",
+    "description": "The son of Poseidon won’t let you down.",
     "details": [
-      "Hemp paper",
-      "Smooth, slower burn",
-      "Signature series"
+      "Hemp blunt",
+      "Rolled in hemp paper",
+      "Slow, even burn"
     ],
     "cnb": "CNB-13814481"
   },
@@ -302,7 +302,7 @@
     "slug": "suns-out-blunts-out",
     "name": "Suns Out Blunts Out",
     "type": "Indica",
-    "pack": "3 \u00d7 1 g",
+    "pack": "3 × 1 g",
     "image": "",
     "status": "live",
     "provinces_live": [
@@ -315,9 +315,9 @@
     "series": "hemp-paper",
     "description": "Simple as that.",
     "details": [
-      "Hemp paper",
-      "Smooth, slower burn",
-      "Signature 3-pack"
+      "Hemp blunt",
+      "Rolled in hemp paper",
+      "Slow, even burn"
     ],
     "cnb": "CNB-13814482"
   },
@@ -325,7 +325,7 @@
     "slug": "big-drift-energy",
     "name": "Big Drift Energy",
     "type": "Indica",
-    "pack": "1 \u00d7 1 g",
+    "pack": "1 × 1 g",
     "image": "",
     "status": "coming-soon",
     "provinces_live": [],
@@ -337,9 +337,9 @@
     "series": "hemp-paper",
     "description": "Put out some B.D.E.",
     "details": [
-      "Hemp paper",
-      "Coming soon",
-      "Slow-burn format"
+      "Hemp blunt",
+      "Rolled in hemp paper",
+      "Slow, even burn"
     ],
     "cnb": "CNB-13814482"
   },
@@ -347,7 +347,7 @@
     "slug": "grand-puba",
     "name": "Grand Puba",
     "type": "Sativa",
-    "pack": "1 \u00d7 1 g",
+    "pack": "1 × 1 g",
     "image": "",
     "status": "coming-soon",
     "provinces_live": [],
@@ -359,9 +359,9 @@
     "series": "hemp-paper",
     "description": "The one and only.",
     "details": [
-      "Hemp paper",
-      "Coming soon",
-      "Single 1 g format"
+      "Hemp blunt",
+      "Rolled in hemp paper",
+      "Slow, even burn"
     ],
     "cnb": ""
   },
@@ -369,7 +369,7 @@
     "slug": "el-torpedo",
     "name": "El Torpedo",
     "type": "Sativa",
-    "pack": "1 \u00d7 2 g",
+    "pack": "1 × 2 g",
     "image": "assets/images/wood-tipped-joint.jpg",
     "status": "coming-soon",
     "provinces_live": [],
@@ -382,8 +382,8 @@
     "description": "Big pulls, long sessions.",
     "details": [
       "Wood-tipped blunt",
-      "Coming soon",
-      "Long-format session"
+      "Natural wood filter tip",
+      "Built for longer sessions"
     ],
     "cnb": ""
   },
@@ -391,7 +391,7 @@
     "slug": "cloudbreak",
     "name": "Cloudbreak",
     "type": "Indica",
-    "pack": "1 \u00d7 2 g",
+    "pack": "1 × 2 g",
     "image": "assets/images/wood-tipped-joint.jpg",
     "status": "coming-soon",
     "provinces_live": [],
@@ -404,8 +404,8 @@
     "description": "For the best surfer.",
     "details": [
       "Wood-tipped blunt",
-      "Coming soon",
-      "Big session finish"
+      "Natural wood filter tip",
+      "Built for longer sessions"
     ],
     "cnb": ""
   }
