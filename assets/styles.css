@@ -116,3 +116,26 @@ body{background:#F5EDE0;color:var(--ink)}
 .subnav a:hover{background:#eaf3f4;color:#0b5660}
 .subnav small{display:block;font-weight:600;color:#8b968f;font-size:12px;margin-top:1px}
 
+
+
+/* v11.1: larger featured cards, wider content, bigger eco badge */
+:root{--max:1400px}
+.approved-section{max-width:1400px}
+.showcase-grid,.product-grid{max-width:1400px}
+@media(min-width:1100px){
+  .showcase-grid.six-up{gap:18px}
+  .showcase-grid.six-up .card-image{aspect-ratio:4/5}
+  .showcase-grid.six-up .card-copy{padding:14px 14px 18px;gap:5px}
+  .showcase-grid.six-up .card-copy h3{font-size:30px}
+  .showcase-grid.six-up .card-copy p{font-size:16px}
+  .showcase-grid.six-up .card-copy small{font-size:13px}
+  .showcase-grid.six-up .type{font-size:10px;padding:4px 8px}
+}
+.sticker-badge{width:150px;height:150px;border-width:5px}
+.sticker-badge strong{font-size:56px}
+.sticker-badge span{font-size:24px}
+@media(max-width:860px){.sticker-badge{width:118px;height:118px}.sticker-badge strong{font-size:44px}.sticker-badge span{font-size:20px}}
+/* status chips on the catalogue */
+.product-grid .card-image{position:relative}
+.product-grid .status-chip{top:12px;right:12px;box-shadow:0 2px 8px rgba(17,65,73,.12)}
+.product-grid .status-chip.live{background:#dff0ef;color:#1c6470}
