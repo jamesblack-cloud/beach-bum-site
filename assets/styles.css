@@ -168,3 +168,31 @@ body{background:#F5EDE0;color:var(--ink)}
   .sticker-badge span{font-size:9px;letter-spacing:.16em;min-width:70px;padding-top:6px}
   .hero-badge{right:18px;bottom:96px}
 }
+
+/* v11.3: featured cards lift and enlarge on hover */
+@media (hover:hover) and (min-width:900px){
+  .showcase-grid.six-up,.product-grid{position:relative}
+  .showcase-grid.six-up .product-card,.product-grid .product-card{
+    position:relative;z-index:1;
+    transition:transform .35s cubic-bezier(.2,.7,.3,1),box-shadow .35s ease,border-color .35s ease;
+    will-change:transform}
+  .showcase-grid.six-up .product-card .card-image img,
+  .product-grid .product-card .card-image img{transition:transform .65s cubic-bezier(.2,.7,.3,1)}
+  .showcase-grid.six-up .product-card:hover,
+  .showcase-grid.six-up .product-card:focus-within{
+    transform:translateY(-12px) scale(1.10);z-index:6;
+    box-shadow:0 24px 48px rgba(16,44,50,.26);border-color:rgba(11,86,96,.20)}
+  .product-grid .product-card:hover,
+  .product-grid .product-card:focus-within{
+    transform:translateY(-10px) scale(1.05);z-index:6;
+    box-shadow:0 22px 44px rgba(16,44,50,.22);border-color:rgba(11,86,96,.20)}
+  .showcase-grid.six-up .product-card:hover .card-image img,
+  .showcase-grid.six-up .product-card:focus-within .card-image img,
+  .product-grid .product-card:hover .card-image img,
+  .product-grid .product-card:focus-within .card-image img{transform:scale(1.07)}
+}
+@media (prefers-reduced-motion:reduce){
+  .showcase-grid.six-up .product-card,.product-grid .product-card,
+  .showcase-grid.six-up .product-card .card-image img,.product-grid .product-card .card-image img{transition:none}
+  .showcase-grid.six-up .product-card:hover,.product-grid .product-card:hover{transform:none}
+}
