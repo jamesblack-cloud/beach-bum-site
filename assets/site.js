@@ -134,21 +134,3 @@ function initHeaderScroll(){
   else boot();
 })();
 
-/* v7.2: hero background video — play only when it can, honour reduced motion & save-data */
-(function(){
-  function boot(){
-    var v=document.querySelector('.hero-video'); if(!v) return;
-    var media=v.closest('.hero-media');
-    var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var save=(navigator.connection&&(navigator.connection.saveData||/2g/.test(navigator.connection.effectiveType||'')));
-    if(reduce||save){ v.removeAttribute('preload'); v.remove(); return; }
-    var show=function(){ v.classList.add('ready'); if(media) media.classList.add('video-live'); };
-    v.addEventListener('playing',show,{once:true});
-    v.addEventListener('canplaythrough',function(){ if(v.paused) v.play().then(show).catch(function(){}); },{once:true});
-    var p=v.play(); if(p&&p.then) p.then(show).catch(function(){});
-    document.addEventListener('visibilitychange',function(){
-      if(document.hidden){ v.pause(); } else if(v.classList.contains('ready')){ v.play().catch(function(){}); }
-    });
-  }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',boot); else boot();
-})();
