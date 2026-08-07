@@ -204,3 +204,29 @@ body{background:#F5EDE0;color:var(--ink)}
 .sticker-badge.small strong{font-size:34px}
 .sticker-badge.side strong{font-size:38px}
 @media(max-width:860px){.sticker-badge strong{font-size:34px}.sticker-badge span{min-width:76px}}
+
+/* v11.5: sun-ray texture inside the eco seal, echoing the logo mark */
+.sticker-badge::after{
+  background:
+    repeating-conic-gradient(from 0deg at 50% 50%,
+      rgba(255,247,235,.085) 0deg 4.5deg, rgba(255,247,235,0) 4.5deg 12deg),
+    radial-gradient(circle at 32% 26%, rgba(255,255,255,.17), transparent 55%)}
+
+/* v11.5: packaging band above the footer, on every page */
+.eco-band{background:#EFE5D4;border-top:1px solid rgba(11,86,96,.10);
+  border-bottom:1px solid rgba(11,86,96,.10);padding:34px 24px 36px;margin-top:10px}
+.eco-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;gap:30px}
+.eco-seal{position:static!important;width:112px;height:112px;flex:0 0 auto;
+  box-shadow:0 0 0 3px #FFF7EB,0 0 0 4px rgba(11,86,96,.28),0 12px 26px rgba(8,38,43,.22)}
+.eco-seal strong{font-size:32px;margin-bottom:4px}
+.eco-seal span{font-size:8px;letter-spacing:.15em;min-width:70px;padding-top:5px}
+.eco-copy .eyebrow{margin:0 0 4px;font-size:12px}
+.eco-copy h3{margin:0 0 6px;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;
+  letter-spacing:.02em;line-height:.98;font-size:clamp(26px,2.4vw,36px);color:#114149}
+.eco-copy p{margin:0;color:#4f5a56;font-size:15px;max-width:62ch}
+@media(max-width:720px){
+  .eco-inner{flex-direction:column;text-align:center;gap:18px}
+  .eco-copy p{font-size:14px}
+  .eco-seal{width:96px;height:96px}
+  .eco-seal strong{font-size:27px}
+}
